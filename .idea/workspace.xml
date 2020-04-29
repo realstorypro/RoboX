@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b5b1a98a-1781-4115-af02-13119e631ea3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/blueprints/robingood-lite.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/blueprints/robingood.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/tasks/blueprints.rake" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -146,7 +144,7 @@
       <updated>1588089666569</updated>
       <workItem from="1588089668013" duration="3639000" />
       <workItem from="1588179285182" duration="2229000" />
-      <workItem from="1588184689618" duration="2648000" />
+      <workItem from="1588184689618" duration="2782000" />
     </task>
     <servers />
   </component>
@@ -158,9 +156,9 @@
       <screen x="0" y="23" width="1440" height="877" />
     </state>
     <state x="450" y="271" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.877@0.23.1440.877" timestamp="1588191225218" />
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1588185120065">
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1588191440511">
       <screen x="0" y="23" width="1440" height="877" />
     </state>
-    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1588185120065" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1588191440511" />
   </component>
 </project>
