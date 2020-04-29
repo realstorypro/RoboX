@@ -1,5 +1,10 @@
 Rails.application.routes.draw do
-  # For details on the DSL available within this file, see https://guides.rubyonrails.org/routing.html
+  namespace :management do
+      resources :blueprints
+      resources :builds
+
+      root to: "blueprints#index"
+    end
   namespace :api do
     namespace :v1 do
       resource :builds, only: [:create] do
@@ -9,5 +14,7 @@ Rails.application.routes.draw do
       end
     end
   end
+
+  root to: 'welcome#index'
 
 end
