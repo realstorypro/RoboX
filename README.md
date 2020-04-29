@@ -16,3 +16,8 @@ The web admin is powered by administrate can be accessed via /management. The cr
 ADMIN_NAME: 'manager'
 ADMIN_PASSWORD: 'password'
 ```
+
+## Update Blueprints with
+```bash
+rake blueprints:update 
+```

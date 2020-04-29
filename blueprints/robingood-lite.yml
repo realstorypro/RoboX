@@ -1,0 +1,22 @@
+heroku:
+  pipeline: 'robingood-cloud'
+  addons:
+    - sendgrid:starter
+    - scheduler:standard
+    - papertrail:choklad
+    - heroku-redis:hobby-dev
+    - heroku-postgresql:hobby-dev
+env:
+  AWS_ACCESS_KEY_ID: 'AKIAISDZ2SH4SUGK7CLA'
+  AWS_REGION: 'us-east-2'
+  AWS_SECRET_ACCESS_KEY: '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'
+  MAPBOX_ACCESS_TOKEN: 'pk.eyJ1IjoiaXRzbGVvbmlkIiwiYSI6ImNqZzVsZXJkazB6YzAzMnFkcTl6bGpyMDcifQ.N9TEG4YZYVl9XE9-VqE5Hw'
+  UPLOADCARE_PRIVATE_KEY: 'f0e90a64ff52151572bb'
+  UPLOADCARE_PUBLIC_KEY: '0a21efa3fc2174ed24f0'
+  IFRAMELY_API: 'fff99802824e2c7cb9ed86'
+  TWILIO_ACCOUNT_SID: 'AC154c6f5a7abcecc6f52759e839a23eeb'
+  TWILIO_AUTH_TOKEN: 'eefcbe1ac4f151ce196fdb46dc594167'
+  TWILIO_PHONE_NUMBER: '+16233215667'
+  LOCKBOX_MASTER_KEY: "51db9cc75d60390175f0d76412cc8e799991e614257dfc7cb18826ce5ce96600"
+  BLIND_INDEX_MASTER_KEY: "51db9cc75d60390175f0d76412cc8e799991e614257dfc7cb18826ce5ce96600"
+  BRANDED: "false"
