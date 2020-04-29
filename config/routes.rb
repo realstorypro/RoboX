@@ -3,7 +3,7 @@ Rails.application.routes.draw do
   namespace :api do
     namespace :v1 do
       resource :builds, only: [:create] do
-        post :status, on: :member
+        get :status, on: :member
         post :update_url, on: :member
         post :disable, on: :member
       end
