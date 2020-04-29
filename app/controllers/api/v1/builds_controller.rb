@@ -1,4 +1,11 @@
 class Api::V1::BuildsController < ApplicationController
+  include ActionController::HttpAuthentication::Basic::ControllerMethods
+
+  http_basic_authenticate_with(
+      name: ENV.fetch("API_NAME"),
+      password: ENV.fetch("API_PASSWORD")
+  )
+
   # need to pass account_id
   # need to pass blueprint
   def create
